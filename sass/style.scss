@@ -168,7 +168,6 @@ footer {
 
 /* mediaquare 600px */
 @media (min-width: 600px){
-
 }
 
     
@@ -176,8 +175,14 @@ footer {
 
 
 @media (max-width: 768px){
+  
+
   .zapas { 
-    flex-direction: column; 
+    img {
+      padding-top: 60px;
+      height: 300px;
+      width: 110px;
+    }
 }
 
   .sneakers { 
