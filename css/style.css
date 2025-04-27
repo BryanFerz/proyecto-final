@@ -1,0 +1,160 @@
+/* comentario en sass y css */
+.bt-cabecera {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+}
+.bt-cabecera .navbar-brand,
+.bt-cabecera .nav-link,
+.bt-cabecera .active {
+  color: white;
+}
+.bt-cabecera .dropdown-toggle {
+  color: #222;
+}
+.bt-cabecera .dropdown-toggle:hover {
+  color: #555;
+}
+.bt-cabecera .dropdown-menu {
+  background-color: #ffffff;
+}
+.bt-cabecera .dropdown-menu a {
+  color: #222;
+}
+.bt-cabecera .dropdown-menu a:hover {
+  background-color: #f0f0f0;
+}
+.bt-cabecera .dropdown-divider {
+  border-color: #ccc;
+}
+@media (prefers-color-scheme: dark) {
+  .bt-cabecera {
+    background-color: #1a1a1a;
+    padding: 10px 20px;
+  }
+  .bt-cabecera .navbar-brand,
+  .bt-cabecera .nav-link,
+  .bt-cabecera .dropdown-toggle {
+    color: #f0f0f0;
+  }
+  .bt-cabecera .navbar-brand:hover,
+  .bt-cabecera .nav-link:hover,
+  .bt-cabecera .dropdown-toggle:hover {
+    color: #ddd;
+  }
+  .bt-cabecera .dropdown-menu {
+    background-color: #2a2a2a;
+  }
+  .bt-cabecera .dropdown-menu a {
+    color: #f0f0f0;
+  }
+  .bt-cabecera .dropdown-menu a:hover {
+    background-color: #3a3a3a;
+  }
+  .bt-cabecera .dropdown-divider {
+    border-color: #555;
+  }
+}
+
+body {
+  /* imagen de fondo */
+  background-image: url(../img/zapatillas-fondo.jpg);
+  /* titulos de las zapatillas */
+  /* zapatillas pag principal */
+  /* pag de zapatillas */
+}
+body hr {
+  color: white;
+  height: 5px;
+}
+body h2 {
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: white;
+}
+body h1 {
+  color: white;
+}
+body p {
+  color: white;
+}
+body .sneakers {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body .sneakers img {
+  width: 200px;
+  margin: 30px;
+}
+body .zapas {
+  display: flex;
+  height: 500px;
+  padding: 40px;
+}
+body .zapas .zapas-contenedor {
+  margin: 40px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  font-weight: bold;
+}
+body .zapas .precio {
+  margin: 40px;
+  color: white;
+}
+body .zapas .nav-pills {
+  padding-left: 40px;
+  margin-top: 20px;
+}
+body .zapas .rating {
+  display: flex;
+  flex-direction: row-reverse;
+  cursor: pointer;
+}
+body .zapas .rating .star:hover ~ .star {
+  color: gold;
+}
+body .zapas .comprar {
+  margin: 10px;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  flex-direction: column;
+  align-items: flex-end;
+}
+footer hr {
+  color: white;
+}
+footer .logo {
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+}
+@media (prefers-color-scheme: dark) {
+  footer {
+    background-color: #222;
+    color: #eee;
+  }
+  footer hr {
+    color: #eee;
+  }
+}
+
+/* mediaquare 600px */
+@media (max-width: 768px) {
+  .zapas {
+    flex-direction: column;
+  }
+  .sneakers img {
+    max-width: 70px;
+    width: 85px;
+    height: 85px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
