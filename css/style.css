@@ -118,6 +118,18 @@ body .zapas .rating .star:hover ~ .star {
 body .zapas .comprar {
   margin: 10px;
 }
+body .contacto h1 {
+  margin: 30px;
+  font-weight: 700;
+  font-style: italic;
+}
+body .contacto p {
+  margin-left: 120px;
+  font-weight: 100;
+}
+body .contacto a {
+  color: white;
+}
 
 footer {
   padding: 10px;
@@ -126,6 +138,10 @@ footer {
   background-color: white;
   flex-direction: column;
   align-items: flex-end;
+  justify-content: end;
+}
+footer a {
+  color: white;
 }
 footer hr {
   color: white;
